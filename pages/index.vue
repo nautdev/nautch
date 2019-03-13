@@ -45,7 +45,7 @@
             action-class="story__expander"
             collapsed-text-class="collapsed"
             clamp="Show more"
-            less="Show Less"
+            less="Show less"
             type="html"
           />
         </div>
@@ -285,13 +285,13 @@ export default {
   }
 
   &__expander {
-    display: inline-block;
-    text-align: center;
+    display: table;
+    text-align: left;
     color: #a16cff;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #a16cff;
 
     &:hover {
-      border-bottom: 2px solid #a16cff;
+      border-bottom: 2px solid transparent;
     }
   }
 }
