@@ -251,11 +251,11 @@ export default {
 
 .story {
   width: 100%;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 100px auto;
 
   @media (--from-tablet) {
     max-width: 640px;
-    margin: 0 auto 90px auto;
+    margin: 0 auto 150px auto;
   }
 
   &__video {
