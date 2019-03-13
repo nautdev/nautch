@@ -8,8 +8,8 @@
 .tns-nav [aria-controls],
 .tns-nav [data-action] {
   width: 30px;
-  height: 10px;
-  margin: 0 5px;
+  height: 3px;
+  margin: 0 3px;
   padding: 0;
   line-height: 0;
   background: white;
@@ -18,8 +18,7 @@
   opacity: 0.5;
 
   @media (--from-tablet) {
-    height: 5px;
-    margin: 0 2px;
+    margin: 0 3px;
   }
 }
 
@@ -37,7 +36,7 @@
 
     button {
       position: absolute;
-      right: -60px;
+      right: -80px;
       width: 60px;
       text-align: right;
       background-color: transparent;
@@ -49,16 +48,16 @@
       }
 
       &:disabled {
-        opacity: 0.3;
+        opacity: 0;
       }
 
       &:first-child {
-        left: -60px;
+        left: -80px;
         text-align: left;
       }
 
       svg {
-        transform: scale(2);
+        transform: scale(1);
         fill: white;
       }
     }

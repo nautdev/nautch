@@ -88,8 +88,8 @@ export default {
         nav: true,
         navPosition: 'bottom',
         controlsText: [
-          '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path fill="none" d="M0 0h24v24H0z"/></svg>',
-          '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"/></svg>'
+          '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><polygon xmlns="http://www.w3.org/2000/svg" class="cls-1" points="36.42 0 38.58 2.16 15.74 25 38.58 47.84 36.42 50 11.42 25 36.42 0" <rect xmlns="http://www.w3.org/2000/svg" class="cls-2" width="50" height="50"/><path fill="none" d="M0 0h24v24H0z"/></svg>',
+          '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><polygon xmlns="http://www.w3.org/2000/svg" class="cls-1" points="13.58 50 11.42 47.84 34.26 25 11.42 2.16 13.58 0 38.58 25 13.58 50" <rect xmlns="http://www.w3.org/2000/svg" class="cls-2" width="50" height="50"/><path fill="none" d="M0 0h24v24H0z"/></svg>'
         ]
       }
     }
