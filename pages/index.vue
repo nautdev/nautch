@@ -273,7 +273,7 @@ export default {
     margin-top: 20px;
 
     @media (--from-tablet) {
-      font-size: 22px;
+      font-size: 24px;
     }
   }
 
