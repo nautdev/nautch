@@ -59,10 +59,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    { src: 'node_modules/vue-rellax/lib/nuxt-plugin' },
-    { src: '~/plugins/vue-tiny-slider.js', ssr: false }
-  ],
+  plugins: [{ src: '~/plugins/vue-tiny-slider.js', ssr: false }],
 
   /*
   ** Nuxt.js modules
