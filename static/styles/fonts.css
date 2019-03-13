@@ -1,0 +1,17 @@
+@font-face {
+  font-weight: 300;
+  font-family: BrandonGrotesque;
+  font-style: normal;
+  src: url('/fonts/BrandonGrotesque-Light.woff2') format('woff2'),
+    url('/fonts/BrandonGrotesque-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: BrandonGrotesque;
+  font-style: normal;
+  src: url('/fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+    url('/fonts/BrandonGrotesque-Regular.woff') format('woff');
+  font-display: swap;
+}
