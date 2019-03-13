@@ -57,7 +57,7 @@
         v-scroll-to="'#crew'"
         href="#crew"
         class="contact--link"
-      >Contact the crew</a>
+      >CONTACT & CREW</a>
     </div>
   </div>
 </template>
@@ -173,15 +173,16 @@ export default {
 
   &--link {
     background-color: #fff;
-    padding: 10px 50px;
+    padding: 10px 15px;
     color: black;
     text-decoration: none;
     display: inline-block;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 14px;
 
     @media (--from-tablet) {
-      padding: 20px 100px;
+      padding: 15px 30px;
+      font-size: 16px;
     }
   }
 }
