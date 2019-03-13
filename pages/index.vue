@@ -292,10 +292,10 @@ export default {
     display: table;
     text-align: left;
     color: #a16cff;
-    border-bottom: 2px solid #a16cff;
+    border-bottom: 2px solid transparent;
 
     &:hover {
-      border-bottom: 2px solid transparent;
+      border-bottom: 2px solid #a16cff;
     }
   }
 }
